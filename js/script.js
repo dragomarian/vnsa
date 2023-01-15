@@ -14,21 +14,21 @@ let showAnImage = (imgUrl) => {
 // SECTION ANIMATIONS
 var triggerHeroSection = new IntersectionObserver(function(entries) {
 	if(entries[0].intersectionRatio > 0) {
-        specialDisplay.style.backgroundImage = "url('../images/one.jpg')"
+        specialDisplay.style.backgroundImage = "url('./images/one.jpg')"
     } 
 		
 }, { threshold: [0] });
 
 var triggerAboutSection = new IntersectionObserver(function(entries) {
 	if(entries[0].intersectionRatio > 0) {
-        specialDisplay.style.backgroundImage = "url('../images/two.jpg')"
+        specialDisplay.style.backgroundImage = "url('./images/two.jpg')"
     } 
 		
 }, { threshold: [0] });
 
 var triggerExpSection = new IntersectionObserver(function(entries) {
 	if(entries[0].intersectionRatio > 0) {
-        specialDisplay.style.backgroundImage = "url('../images/three.jpg')"
+        specialDisplay.style.backgroundImage = "url('./images/three.jpg')"
     } 
 		
 }, { threshold: [0] });
